@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(215, 251, 79, 0.12), transparent 32rem),
+    linear-gradient(135deg, #060b09 0%, #09110e 45%, #15120e 100%);
+  color: #f6f7f2;
+}
+
+::selection {
+  background: rgba(215, 251, 79, 0.28);
+}
+
+.field {
+  @apply w-full rounded-lg border border-white/10 bg-white/[0.06] px-3 py-2.5 text-sm text-white outline-none transition placeholder:text-white/35 focus:border-flood/60 focus:ring-2 focus:ring-flood/15;
+}
+
+.label {
+  @apply text-xs font-semibold uppercase tracking-[0.18em] text-white/50;
+}
+
+.panel {
+  @apply rounded-lg border border-white/10 bg-white/[0.055] shadow-glow backdrop-blur;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg bg-flood px-4 py-2.5 text-sm font-extrabold text-pitch-950 transition hover:bg-white focus:outline-none focus:ring-2 focus:ring-flood/45 disabled:cursor-not-allowed disabled:opacity-55;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.06] px-4 py-2.5 text-sm font-semibold text-white transition hover:border-white/25 hover:bg-white/[0.1] focus:outline-none focus:ring-2 focus:ring-white/20 disabled:cursor-not-allowed disabled:opacity-55;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}

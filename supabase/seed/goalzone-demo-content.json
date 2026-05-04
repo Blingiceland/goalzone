@@ -1,0 +1,453 @@
+{
+  "categories": [
+    {
+      "categorySlug": "long-range-screamers",
+      "categoryNameEnglish": "Long-range screamers",
+      "categoryNameIcelandic": "Langskot",
+      "shortDescriptionIcelandic": "Skot utan af velli, þrumur í hornið og mörk sem láta fólk standa upp.",
+      "videos": [
+        {
+          "title": "Aron Sigurðarson skoraði með skoti af löngu færi fyrir KR gegn Val",
+          "externalUrl": "https://www.youtube.com/watch?v=KFp787pw0T8",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Aron Sig með þrumu fyrir KR gegn Val",
+          "playerName": "Aron Sigurðarson",
+          "teamName": "KR",
+          "opponentTeamName": "Valur",
+          "year": 2024,
+          "highlightType": "goal",
+          "tags": [
+            "langskot",
+            "besta-deildin",
+            "kr",
+            "valur"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Íslenskt dæmi um langskot sem passar beint við Goalzone stemninguna.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "Gyða Kristín minnkaði muninn með þessu frábæra langskoti",
+          "externalUrl": "https://www.youtube.com/watch?v=sSNCa8Scsxc",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Frábært langskot hjá Gyðu Kristínu",
+          "playerName": "Gyða Kristín",
+          "year": 2024,
+          "highlightType": "goal",
+          "tags": [
+            "langskot",
+            "besta-deildin",
+            "kvennafótbolti"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Sterkt íslenskt langskot sem sýnir að local content getur borið forsíðuna.",
+          "competition": "Besta deild kvenna"
+        }
+      ]
+    },
+    {
+      "categorySlug": "solo-goals",
+      "categoryNameEnglish": "Solo goals",
+      "categoryNameIcelandic": "Einstaklingsmörk",
+      "shortDescriptionIcelandic": "Þegar einn leikmaður tekur málin í sínar hendur.",
+      "videos": [
+        {
+          "title": "The GREATEST EVER Champions League solo goals",
+          "externalUrl": "https://www.youtube.com/watch?v=oemhikAe4J0",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Solo-mörk sem fólk man eftir",
+          "teamName": "UEFA Champions League",
+          "highlightType": "goal",
+          "tags": [
+            "einstaklingsmark",
+            "tilþrif",
+            "meistaradeildin"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Lengra demo sem sýnir hvernig solo-goals kafli getur virkað á forsíðu.",
+          "competition": "UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "categorySlug": "team-goals",
+      "categoryNameEnglish": "Team goals",
+      "categoryNameIcelandic": "Liðsmörk",
+      "shortDescriptionIcelandic": "Sendingar, hreyfing og sóknir þar sem allt liðið virðist vita hvað kemur næst.",
+      "videos": [
+        {
+          "title": "Blikar breyta vörn í sókn",
+          "externalUrl": "https://www.youtube.com/watch?v=J9nG_tnSrNo",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Blikar fara úr vörn í sókn",
+          "teamName": "Breiðablik",
+          "highlightType": "assist",
+          "tags": [
+            "liðsmark",
+            "besta-deildin",
+            "breiðablik"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Íslenskt dæmi um hröð umskipti og liðssókn.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "Helgi Fróði með þræðingu inn fyrir vörnina",
+          "externalUrl": "https://www.youtube.com/watch?v=OkbWPnrgfSw",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Þræðing inn fyrir vörnina",
+          "playerName": "Helgi Fróði",
+          "highlightType": "assist",
+          "tags": [
+            "stoðsending",
+            "liðsmark",
+            "besta-deildin"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Sýnir að stoðsendingar og opnanir geta verið jafnmikil highlights og mörk.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "How do you defend against this",
+          "externalUrl": "https://www.youtube.com/watch?v=ToSxAnen8HM",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Sókn sem erfitt er að verjast",
+          "teamName": "UEFA Champions League",
+          "highlightType": "assist",
+          "tags": [
+            "liðsmark",
+            "uefa",
+            "sókn"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Stutt UEFA demo sem passar vel í category section á landing.",
+          "competition": "UEFA Champions League"
+        }
+      ]
+    },
+    {
+      "categorySlug": "last-minute-winners",
+      "categoryNameEnglish": "Last-minute winners",
+      "categoryNameIcelandic": "Sigurmörk í blálokin",
+      "shortDescriptionIcelandic": "Lokamínútur, öskur úr stúkunni og augnablikin sem breyta öllu.",
+      "videos": [
+        {
+          "title": "FH 3-4 Fram | Framarar komu fjórum sinnum til baka í ótrúlegum lokaleik",
+          "externalUrl": "https://www.youtube.com/watch?v=8Ce2xqyPgow",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Framarar koma fjórum sinnum til baka",
+          "teamName": "Fram",
+          "opponentTeamName": "FH",
+          "year": 2025,
+          "highlightType": "historic",
+          "tags": [
+            "lokamínútur",
+            "besta-deildin",
+            "endurkoma"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Local drama og markasaga sem selur hugmyndina um íslenskan highlight vettvang.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "KA 2 - 1 Stjarnan | Akureyringar stela sigrinum í lok leiks",
+          "externalUrl": "https://www.youtube.com/watch?v=sKFHzfxlOs4",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "KA stelur sigrinum í lokin",
+          "teamName": "KA",
+          "opponentTeamName": "Stjarnan",
+          "highlightType": "goal",
+          "tags": [
+            "sigurmark",
+            "besta-deildin",
+            "lokamínútur"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Titillinn sjálfur er nákvæmlega Goalzone flokkurinn: sigur stolið í lokin.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "One of the craziest endings in Premier League history",
+          "externalUrl": "https://www.youtube.com/watch?v=FQ-aoG0Xqbo",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Einn klikkaðasti endir í Premier League",
+          "teamName": "Tottenham Hotspur",
+          "highlightType": "historic",
+          "tags": [
+            "lokamínútur",
+            "premier-league",
+            "drama"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Gefur alþjóðlegt viðmið fyrir sama drama og við viljum finna í íslenska boltanum.",
+          "competition": "Premier League"
+        }
+      ]
+    },
+    {
+      "categorySlug": "great-saves",
+      "categoryNameEnglish": "Great saves",
+      "categoryNameIcelandic": "Geggjaðar markvörslur",
+      "shortDescriptionIcelandic": "Viðbrögð, marklínubjörgun og augnablik þar sem markvörðurinn vinnur klippuna.",
+      "videos": [
+        {
+          "title": "Hólmar Örn náði að bjarga marki á ótrúlegan hátt gegn KA",
+          "externalUrl": "https://www.youtube.com/watch?v=5U2N3SdpHAU",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Ótrúleg björgun á marklínu gegn KA",
+          "playerName": "Hólmar Örn",
+          "opponentTeamName": "KA",
+          "highlightType": "save",
+          "tags": [
+            "varsla",
+            "björgun",
+            "besta-deildin"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Íslenskt save-demo sem virkar frábærlega fyrir Goalzone.",
+          "competition": "Besta deild karla"
+        },
+        {
+          "title": "1 HOUR of Epic Premier League Goalkeeper Saves",
+          "externalUrl": "https://www.youtube.com/watch?v=W0gD87VWE5Q",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Epískar markvörslur úr Premier League",
+          "teamName": "Premier League",
+          "highlightType": "save",
+          "tags": [
+            "varsla",
+            "markvörður",
+            "premier-league"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Sýnir hvernig markvörsluflokkur getur haft sterk myndbönd án þess að vera mark.",
+          "competition": "Premier League"
+        }
+      ]
+    },
+    {
+      "categorySlug": "penalty-saves",
+      "categoryNameEnglish": "Penalty saves",
+      "categoryNameIcelandic": "Varin víti",
+      "shortDescriptionIcelandic": "Einvígi, pressa og markverðir sem lesa skotmanninn rétt.",
+      "videos": [
+        {
+          "title": "5 penalties saved in a row - that's WORLD CLASS",
+          "externalUrl": "https://www.youtube.com/watch?v=4iV5V0MqNDk",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Fimm víti varin í röð",
+          "teamName": "Bundesliga",
+          "highlightType": "save",
+          "tags": [
+            "víti",
+            "bundesliga",
+            "markvörður"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Mjög skýrt og auðskilið demo fyrir varin víti.",
+          "competition": "Bundesliga"
+        },
+        {
+          "title": "Goalkeeper saves TWO penalties in ONE game!",
+          "externalUrl": "https://www.youtube.com/watch?v=FIiAhfI81D8",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Tvö víti varin í sama leik",
+          "teamName": "Everton",
+          "highlightType": "save",
+          "tags": [
+            "víti",
+            "markvörður",
+            "everton"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Gott dæmi um einstaka markvörslu í afmörkuðum leik.",
+          "competition": "Premier League"
+        }
+      ]
+    },
+    {
+      "categorySlug": "skills-and-nutmegs",
+      "categoryNameEnglish": "Skills and nutmegs",
+      "categoryNameIcelandic": "Tilþrif og göng",
+      "shortDescriptionIcelandic": "Gabbhreyfingar, göng, fyrstu snertingar og leikmenn sem selja varnarmanninn.",
+      "videos": [
+        {
+          "title": "Best nutmeg EVER?!",
+          "externalUrl": "https://www.youtube.com/watch?v=FsU9_nFQw8M",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Göng sem þarf að horfa á aftur",
+          "teamName": "UEFA",
+          "highlightType": "skill",
+          "tags": [
+            "göng",
+            "tilþrif",
+            "uefa"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Nákvæmlega það sem tilþrifaflokkurinn þarf að sýna.",
+          "competition": "UEFA Champions League"
+        },
+        {
+          "title": "5 nutmeg skills to HUMILIATE defenders",
+          "externalUrl": "https://www.youtube.com/watch?v=yVWWjEKjEPc",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Fimm leiðir til að setja varnarmann í göng",
+          "teamName": "Unisport",
+          "highlightType": "skill",
+          "tags": [
+            "göng",
+            "æfing",
+            "tilþrif"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Amateur/training style video sem hjálpar feedinu að líða minna eins og bara pro highlights.",
+          "competition": "?fing"
+        }
+      ]
+    },
+    {
+      "categorySlug": "funny-mistakes-own-goals",
+      "categoryNameEnglish": "Funny mistakes and own goals",
+      "categoryNameIcelandic": "Klúður og sjálfsmörk",
+      "shortDescriptionIcelandic": "Óvæntar beygjur, sjálfsmörk og augnablik sem maður horfir á með hendurnar á höfðinu.",
+      "videos": [
+        {
+          "title": "The CRAZIEST own goals you will EVER see",
+          "externalUrl": "https://www.youtube.com/watch?v=6v9tF6Mbo5I",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Klikkuðustu sjálfsmörkin",
+          "teamName": "Premier League",
+          "highlightType": "mistake",
+          "tags": [
+            "sjálfsmark",
+            "klúður",
+            "premier-league"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Sjálfsmörk og klúður eru náttúrulegur hluti af highlight menningu.",
+          "competition": "Premier League"
+        },
+        {
+          "title": "Own Goals But They Get More BIZARRE",
+          "externalUrl": "https://www.youtube.com/watch?v=IEWGpHbd-GU",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Sjálfsmörk sem verða sífellt furðulegri",
+          "teamName": "Premier League",
+          "highlightType": "funny",
+          "tags": [
+            "sjálfsmark",
+            "fyndið",
+            "klúður"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Gott dæmi um léttari feed-flokk sem heldur síðunni lifandi.",
+          "competition": "Premier League"
+        },
+        {
+          "title": "Craziest Own Goal Ever? - FC St.Pauli vs Hamburger SV",
+          "externalUrl": "https://www.youtube.com/watch?v=rsWM_5jYiLk",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Eitt skrítnasta sjálfsmarkið",
+          "teamName": "FC St. Pauli",
+          "opponentTeamName": "Hamburger SV",
+          "highlightType": "mistake",
+          "tags": [
+            "sjálfsmark",
+            "bundesliga",
+            "klúður"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Mjög skýrt og sjónrænt klúður sem virkar vel sem demo card.",
+          "competition": "Bundesliga"
+        }
+      ]
+    },
+    {
+      "categorySlug": "local-emotional-moments",
+      "categoryNameEnglish": "Local and emotional moments",
+      "categoryNameIcelandic": "Staðbundin augnablik",
+      "shortDescriptionIcelandic": "Fyrstu mörk, stórar stundir og local klippur sem stærri miðlar missa oft af.",
+      "videos": [
+        {
+          "title": "Elísa Bríet Björnsdóttir skoraði sitt fyrsta mark í Bestu deildinni",
+          "externalUrl": "https://www.youtube.com/watch?v=hmxQDHKy7ys",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Fyrsta mark Elísu Bríetar í Bestu deildinni",
+          "playerName": "Elísa Bríet Björnsdóttir",
+          "year": 2024,
+          "highlightType": "celebration",
+          "tags": [
+            "fyrsta-mark",
+            "besta-deildin",
+            "local"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Þetta er nákvæmlega tegundin sem Goalzone á að ná betur utan um.",
+          "competition": "Besta deild kvenna"
+        }
+      ]
+    },
+    {
+      "categorySlug": "international-tournament-goals",
+      "categoryNameEnglish": "International tournament goals",
+      "categoryNameIcelandic": "Landsli?sm?rk",
+      "shortDescriptionIcelandic": "HM, Copa America og st?r landsli?saugnablik sem s?na hvernig al?j??legt efni ra?ast inn.",
+      "videos": [
+        {
+          "title": "Top FIFA World Cup goals from the archive",
+          "externalUrl": "https://www.youtube.com/watch?v=CiAU2Ei5LbI",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "HM-m?rk ?r FIFA safninu",
+          "teamName": "FIFA World Cup",
+          "competition": "FIFA World Cup",
+          "year": 2022,
+          "highlightType": "goal",
+          "tags": [
+            "hm",
+            "fifa",
+            "world-cup",
+            "stj?rnur"
+          ],
+          "embedLikely": false,
+          "whyThisFitsTheCategory": "HM-s?nishorn fyrir flokkun. YouTube leyfir ekki embed ? ?essari klippu, ?annig h?n er ekki seed-u? opinberlega."
+        },
+        {
+          "title": "All the goals from CONMEBOL Copa America 2024",
+          "externalUrl": "https://www.youtube.com/watch?v=ZxphBeeBFKE",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "?ll m?rkin ?r Copa America 2024",
+          "teamName": "CONMEBOL Copa America",
+          "competition": "Copa America",
+          "year": 2024,
+          "highlightType": "goal",
+          "tags": [
+            "copa-america",
+            "conmebol",
+            "argentina",
+            "brasil"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "S?nir Copa America flokkinn og hvernig official tournament efni g?ti ra?ast inn."
+        },
+        {
+          "title": "Relive all of the goals from CONMEBOL Copa America 2021",
+          "externalUrl": "https://www.youtube.com/watch?v=aPVleShLuT4",
+          "provider": "youtube",
+          "suggestedDisplayTitleIcelandic": "Copa America 2021: ?ll m?rkin",
+          "teamName": "CONMEBOL Copa America",
+          "competition": "Copa America",
+          "year": 2021,
+          "highlightType": "goal",
+          "tags": [
+            "copa-america",
+            "conmebol",
+            "argentina",
+            "messi"
+          ],
+          "embedLikely": true,
+          "whyThisFitsTheCategory": "Gott demo fyrir Copa America og stj?rnuflokkinn ?ar sem Messi/Argentina samhengi selur umr??una."
+        }
+      ]
+    }
+  ]
+}

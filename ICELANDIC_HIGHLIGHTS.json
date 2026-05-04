@@ -1,0 +1,748 @@
+{
+  "metadata": {
+    "name": "Goalzone Icelandic highlights candidate dataset",
+    "createdAt": "2026-05-03",
+    "candidateDataset": true,
+    "productionReady": false,
+    "notes": "This file contains candidate Icelandic football highlight links for Goalzone demo and early production review. Data should be verified before production use. Unknown values are null rather than guessed."
+  },
+  "groups": [
+    {
+      "competition": "Besta deildin",
+      "highlights": [
+        {
+          "title": "Vestri 3-1 Stjarnan - magnað endurkomumyndband",
+          "description": "Vestri vann sterkan endurkomusigur gegn Stjörnunni.",
+          "playerName": null,
+          "teamName": "Vestri",
+          "opponentTeamName": "Stjarnan",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "endurkoma",
+          "externalUrl": "https://www.youtube.com/watch?v=tqURQS0XNaM",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube embed found through a Fotbolti.net goals article."
+        },
+        {
+          "title": "KA 1-0 Afturelding - stórkostlegt sigurmark",
+          "description": "Hallgrímur Már skoraði sigurmark KA gegn Aftureldingu.",
+          "playerName": "Hallgrímur Már",
+          "teamName": "KA",
+          "opponentTeamName": "Afturelding",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=uxDi2Pap0-Q",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Title names the scorer and frames the clip as a strong demo for late-game drama."
+        },
+        {
+          "title": "Valur 3-0 ÍBV - sannfærandi sigur Vals",
+          "description": "Valur vann öruggan sigur gegn ÍBV.",
+          "playerName": null,
+          "teamName": "Valur",
+          "opponentTeamName": "ÍBV",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=KRvNPNKa4hw",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "KR 2-3 Fram - sterkur sigur í Reykjavíkurslag",
+          "description": "Framarar unnu sterkan sigur gegn KR.",
+          "playerName": null,
+          "teamName": "Fram",
+          "opponentTeamName": "KR",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=KfQS6fGfDN0",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Good rivalry/local-demo candidate."
+        },
+        {
+          "title": "KR 0-7 Víkingur - stórsigur í Vesturbæ",
+          "description": "Víkingur vann sögulegan stórsigur gegn KR.",
+          "playerName": null,
+          "teamName": "Víkingur",
+          "opponentTeamName": "KR",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "markaveisla",
+          "externalUrl": "https://www.youtube.com/watch?v=_Nte10CzCCA",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Strong demo candidate because the scoreline is immediately attention-grabbing."
+        },
+        {
+          "title": "FH 2-2 Fram - innkoma tryggði efri hlutann",
+          "description": "FH og Fram skildu jöfn eftir dramatískan leik.",
+          "playerName": "Bjarni Guðjóns",
+          "teamName": "FH",
+          "opponentTeamName": "Fram",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "jöfnunarmark",
+          "externalUrl": "https://www.youtube.com/watch?v=pvqhsbvXb84",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Title mentions Bjarni Guðjóns and a decisive impact from the bench."
+        },
+        {
+          "title": "KA 4-1 Vestri - Akureyringar buðu til sýningar",
+          "description": "KA vann sannfærandi sigur gegn Vestra.",
+          "playerName": null,
+          "teamName": "KA",
+          "opponentTeamName": "Vestri",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "markaveisla",
+          "externalUrl": "https://www.youtube.com/watch?v=LocPk92mSjg",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "Valur 1-2 Stjarnan - fimmti sigurinn í röð",
+          "description": "Stjarnan vann mikilvægan sigur gegn Val.",
+          "playerName": null,
+          "teamName": "Stjarnan",
+          "opponentTeamName": "Valur",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=a2YscqPzXcM",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Good candidate for team/club filtering."
+        },
+        {
+          "title": "ÍA 3-0 Breiðablik - mikilvægur sigur Skagamanna",
+          "description": "ÍA vann sterkan sigur gegn Breiðabliki.",
+          "playerName": null,
+          "teamName": "ÍA",
+          "opponentTeamName": "Breiðablik",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=m0l15r8QL9Y",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Strong club-based candidate because both teams are recognizable locally."
+        },
+        {
+          "title": "Afturelding 1-0 Víkingur - sögulegur sigur",
+          "description": "Afturelding vann sögulegan sigur gegn Víkingi.",
+          "playerName": null,
+          "teamName": "Afturelding",
+          "opponentTeamName": "Víkingur",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=BsPp4HoM6U8",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Useful for showing smaller/community clubs against bigger names."
+        },
+        {
+          "title": "ÍBV 3-1 Fram - sterkur sigur í Eyjum",
+          "description": "ÍBV vann sterkan sigur gegn Fram.",
+          "playerName": null,
+          "teamName": "ÍBV",
+          "opponentTeamName": "Fram",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=MQ6KmNlVZ4Y",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "KR 1-2 Stjarnan - Örvar skoraði tvö",
+          "description": "Örvar skoraði tvö mörk í sigri Stjörnunnar.",
+          "playerName": "Örvar",
+          "teamName": "Stjarnan",
+          "opponentTeamName": "KR",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "tvenna",
+          "externalUrl": "https://www.youtube.com/watch?v=JHuHuLxpPEA",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Scorer is named in the YouTube title."
+        },
+        {
+          "title": "Víkingur 3-1 FH - Víkingar fóru á toppinn",
+          "description": "Víkingur vann FH og fór á toppinn.",
+          "playerName": null,
+          "teamName": "Víkingur",
+          "opponentTeamName": "FH",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=fxH_c2siftA",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Useful for table/race narrative in a demo."
+        },
+        {
+          "title": "KA 0-1 Breiðablik - meistararnir unnu bikarmeistarana",
+          "description": "Breiðablik vann nauman sigur gegn KA.",
+          "playerName": null,
+          "teamName": "Breiðablik",
+          "opponentTeamName": "KA",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=k108OEzN264",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "Valur 6-1 KR - markaveisla að Hlíðarenda",
+          "description": "Valur vann stórsigur gegn KR í Reykjavíkurslag.",
+          "playerName": null,
+          "teamName": "Valur",
+          "opponentTeamName": "KR",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "markaveisla",
+          "externalUrl": "https://www.youtube.com/watch?v=ZM6yzUk1tvo",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Very strong demo clip because the scoreline and rivalry sell the platform quickly."
+        },
+        {
+          "title": "Breiðablik 1-1 Fram - hart barist í Kópavogi",
+          "description": "Breiðablik og Fram skildu jöfn.",
+          "playerName": null,
+          "teamName": "Breiðablik",
+          "opponentTeamName": "Fram",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=2Xkot8auYHM",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "ÍBV 1-2 Afturelding - Aron Jóhannsson tók málin í sínar hendur",
+          "description": "Aron Jóhannsson steig upp í sigri Aftureldingar.",
+          "playerName": "Aron Jóhannsson",
+          "teamName": "Afturelding",
+          "opponentTeamName": "ÍBV",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=eeulbEpVqao",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Player named in title; useful for playerName filtering."
+        },
+        {
+          "title": "Fram 4-2 Breiðablik - frábær endurkoma",
+          "description": "Fram vann Breiðablik eftir sterka endurkomu.",
+          "playerName": null,
+          "teamName": "Fram",
+          "opponentTeamName": "Breiðablik",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "endurkoma",
+          "externalUrl": "https://www.youtube.com/watch?v=NLWyTYAHq2U",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Strong story-driven candidate."
+        },
+        {
+          "title": "Vestri 1-0 FH - sterkur fyrsti heimaleikur",
+          "description": "Vestri vann sterkan heimasigur gegn FH.",
+          "playerName": null,
+          "teamName": "Vestri",
+          "opponentTeamName": "FH",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=UUdDI98VQBc",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Good local/community story."
+        },
+        {
+          "title": "Víkingur 4-0 KA - sannfærandi sigur",
+          "description": "Víkingur vann öruggan sigur gegn KA.",
+          "playerName": null,
+          "teamName": "Víkingur",
+          "opponentTeamName": "KA",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=vEb4tBZJDFY",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "Afturelding 4-3 KR - markaveisla í Mosfellsbæ",
+          "description": "Afturelding og KR buðu upp á sjö marka leik.",
+          "playerName": null,
+          "teamName": "Afturelding",
+          "opponentTeamName": "KR",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "markaveisla",
+          "externalUrl": "https://www.youtube.com/watch?v=xL1m0faPc88",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Excellent demo candidate because it clearly communicates entertainment value."
+        },
+        {
+          "title": "Fram 1-0 Vestri - sterkur sigur Framara",
+          "description": "Fram vann nauman sigur gegn Vestra.",
+          "playerName": null,
+          "teamName": "Fram",
+          "opponentTeamName": "Vestri",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=Hh9T93LMliA",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "KR 3-2 FH - Eiður Gauti með tvö mörk",
+          "description": "Eiður Gauti skoraði tvö í endurkomusigri KR.",
+          "playerName": "Eiður Gauti",
+          "teamName": "KR",
+          "opponentTeamName": "FH",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "tvenna",
+          "externalUrl": "https://www.youtube.com/watch?v=pLKJ5mKJokY",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Strong demo candidate because it includes named player, rivalry and comeback."
+        },
+        {
+          "title": "Víkingur 2-1 Afturelding - Nikolaj Hansen steig upp",
+          "description": "Nikolaj Hansen átti stóran þátt í sigri Víkings.",
+          "playerName": "Nikolaj Hansen",
+          "teamName": "Víkingur",
+          "opponentTeamName": "Afturelding",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=TujXbBvkcEc",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Player named in title; useful for demonstrating player metadata."
+        },
+        {
+          "title": "Fram 2-0 ÍBV - sigur Framara gegn Eyjamönnum",
+          "description": "Fram vann ÍBV með tveimur mörkum.",
+          "playerName": null,
+          "teamName": "Fram",
+          "opponentTeamName": "ÍBV",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=zBBX8ZCuiMI",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "Vestri 0-2 ÍA - mikilvægur sigur Skagamanna",
+          "description": "ÍA sótti sterkan sigur gegn Vestra.",
+          "playerName": null,
+          "teamName": "ÍA",
+          "opponentTeamName": "Vestri",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=vIMyuXT2-Eg",
+          "source": "fotbolti.net",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Besta deildin YouTube match highlight."
+        },
+        {
+          "title": "Aron Sigurðarson með þrumu fyrir KR gegn Val",
+          "description": "Aron Sigurðarson skoraði með skoti af löngu færi.",
+          "playerName": "Aron Sigurðarson",
+          "teamName": "KR",
+          "opponentTeamName": "Valur",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "langskot",
+          "externalUrl": "https://www.youtube.com/watch?v=KFp787pw0T8",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; previously useful as a demo-style clip."
+        },
+        {
+          "title": "Blikar breyta vörn í sókn",
+          "description": "Breiðablik breytir varnaraðgerð í hraða sókn.",
+          "playerName": null,
+          "teamName": "Breiðablik",
+          "opponentTeamName": null,
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "assist",
+          "goalType": "liðsmark",
+          "externalUrl": "https://www.youtube.com/watch?v=J9nG_tnSrNo",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; good for showing non-goal highlight classification."
+        },
+        {
+          "title": "Helgi Fróði með þræðingu inn fyrir vörnina",
+          "description": "Helgi Fróði opnaði vörnina með góðri sendingu.",
+          "playerName": "Helgi Fróði",
+          "teamName": null,
+          "opponentTeamName": null,
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "assist",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=OkbWPnrgfSw",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; useful for assist/skill-adjacent demo filtering."
+        },
+        {
+          "title": "FH 3-4 Fram - Framarar komu fjórum sinnum til baka",
+          "description": "Fram vann ótrúlegan lokaleik gegn FH.",
+          "playerName": null,
+          "teamName": "Fram",
+          "opponentTeamName": "FH",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "endurkoma",
+          "externalUrl": "https://www.youtube.com/watch?v=8Ce2xqyPgow",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube highlight; strong story candidate."
+        },
+        {
+          "title": "KA 2-1 Stjarnan - sigur stolið í lokin",
+          "description": "KA vann Stjörnuna með marki í lok leiks.",
+          "playerName": null,
+          "teamName": "KA",
+          "opponentTeamName": "Stjarnan",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "sigurmark",
+          "externalUrl": "https://www.youtube.com/watch?v=sKFHzfxlOs4",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube highlight; good for last-minute winners category."
+        },
+        {
+          "title": "Hólmar Örn bjargar á ótrúlegan hátt gegn KA",
+          "description": "Hólmar Örn náði að koma í veg fyrir mark með frábærri björgun.",
+          "playerName": "Hólmar Örn",
+          "teamName": null,
+          "opponentTeamName": "KA",
+          "competition": "Besta deildin",
+          "matchDate": null,
+          "highlightType": "save",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=5U2N3SdpHAU",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; important because Goalzone should not only show goals."
+        }
+      ]
+    },
+    {
+      "competition": "Besta deild kvenna",
+      "highlights": [
+        {
+          "title": "Gyða Kristín með frábært langskot",
+          "description": "Gyða Kristín minnkaði muninn með góðu skoti af löngu færi.",
+          "playerName": "Gyða Kristín",
+          "teamName": null,
+          "opponentTeamName": null,
+          "competition": "Besta deild kvenna",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "langskot",
+          "externalUrl": "https://www.youtube.com/watch?v=sSNCa8Scsxc",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; strong women's football demo clip."
+        },
+        {
+          "title": "Elísa Bríet Björnsdóttir með sitt fyrsta mark í Bestu deildinni",
+          "description": "Elísa Bríet skoraði sitt fyrsta mark í Bestu deildinni.",
+          "playerName": "Elísa Bríet Björnsdóttir",
+          "teamName": null,
+          "opponentTeamName": null,
+          "competition": "Besta deild kvenna",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": "fyrsta mark",
+          "externalUrl": "https://www.youtube.com/watch?v=hmxQDHKy7ys",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "high",
+          "notes": "Official Besta deildin YouTube short; great community/local story."
+        }
+      ]
+    },
+    {
+      "competition": "Lengjudeildin",
+      "highlights": [
+        {
+          "title": "HK - Þróttur R.",
+          "description": "Lengjudeildar-myndband úr leik HK og Þróttar R.",
+          "playerName": null,
+          "teamName": "HK",
+          "opponentTeamName": "Þróttur R.",
+          "competition": "Lengjudeildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=aP25-Nuk_zw",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Lengjudeildin YouTube channel according to oEmbed author data."
+        },
+        {
+          "title": "Keflavík - Njarðvík",
+          "description": "Lengjudeildar-myndband úr leik Keflavíkur og Njarðvíkur.",
+          "playerName": null,
+          "teamName": "Keflavík",
+          "opponentTeamName": "Njarðvík",
+          "competition": "Lengjudeildin",
+          "matchDate": null,
+          "highlightType": "goal",
+          "goalType": null,
+          "externalUrl": "https://www.youtube.com/watch?v=SM8KivEfoE0",
+          "source": "youtube",
+          "embedLikely": true,
+          "demoQuality": "medium",
+          "notes": "Official Lengjudeildin YouTube channel according to oEmbed author data."
+        }
+      ]
+    }
+  ],
+  "shortlists": {
+    "bestDemoReadyClips": [
+      {
+        "title": "KR 0-7 Víkingur - stórsigur í Vesturbæ",
+        "externalUrl": "https://www.youtube.com/watch?v=_Nte10CzCCA",
+        "reason": "Sterk fyrirsögn, stórt félag og sögulegur skellur."
+      },
+      {
+        "title": "Valur 6-1 KR - markaveisla að Hlíðarenda",
+        "externalUrl": "https://www.youtube.com/watch?v=ZM6yzUk1tvo",
+        "reason": "Reykjavíkurrisarnir, mörg mörk og auðvelt að selja í demo."
+      },
+      {
+        "title": "Afturelding 4-3 KR - markaveisla í Mosfellsbæ",
+        "externalUrl": "https://www.youtube.com/watch?v=xL1m0faPc88",
+        "reason": "Sjö marka leikur og skýr community-story."
+      },
+      {
+        "title": "FH 3-4 Fram - Framarar komu fjórum sinnum til baka",
+        "externalUrl": "https://www.youtube.com/watch?v=8Ce2xqyPgow",
+        "reason": "Frábært dæmi um drama og endurkomu."
+      },
+      {
+        "title": "KR 3-2 FH - Eiður Gauti með tvö mörk",
+        "externalUrl": "https://www.youtube.com/watch?v=pLKJ5mKJokY",
+        "reason": "Nefndur leikmaður, stór félög og endurkomusigur."
+      },
+      {
+        "title": "Aron Sigurðarson með þrumu fyrir KR gegn Val",
+        "externalUrl": "https://www.youtube.com/watch?v=KFp787pw0T8",
+        "reason": "Stutt, skýrt og fullkomið langskots-demo."
+      },
+      {
+        "title": "Hólmar Örn bjargar á ótrúlegan hátt gegn KA",
+        "externalUrl": "https://www.youtube.com/watch?v=5U2N3SdpHAU",
+        "reason": "Sýnir að Goalzone er líka fyrir markvörslur."
+      },
+      {
+        "title": "Gyða Kristín með frábært langskot",
+        "externalUrl": "https://www.youtube.com/watch?v=sSNCa8Scsxc",
+        "reason": "Sterkt kvennafótbolta-demo og gott langskot."
+      },
+      {
+        "title": "Elísa Bríet Björnsdóttir með sitt fyrsta mark",
+        "externalUrl": "https://www.youtube.com/watch?v=hmxQDHKy7ys",
+        "reason": "Gott local/community augnablik."
+      },
+      {
+        "title": "KA 1-0 Afturelding - stórkostlegt sigurmark",
+        "externalUrl": "https://www.youtube.com/watch?v=uxDi2Pap0-Q",
+        "reason": "Skýrt sigurmark og leikmaður nefndur."
+      },
+      {
+        "title": "Afturelding 1-0 Víkingur - sögulegur sigur",
+        "externalUrl": "https://www.youtube.com/watch?v=BsPp4HoM6U8",
+        "reason": "Smærra lið gegn stóru nafni, gott fyrir vörusöguna."
+      },
+      {
+        "title": "ÍA 3-0 Breiðablik - mikilvægur sigur Skagamanna",
+        "externalUrl": "https://www.youtube.com/watch?v=m0l15r8QL9Y",
+        "reason": "Gott club-based demo með þekktum liðum."
+      },
+      {
+        "title": "ÍBV 1-2 Afturelding - Aron Jóhannsson tók málin í sínar hendur",
+        "externalUrl": "https://www.youtube.com/watch?v=eeulbEpVqao",
+        "reason": "Leikmaður nefndur og gott player filtering dæmi."
+      },
+      {
+        "title": "Fram 4-2 Breiðablik - frábær endurkoma",
+        "externalUrl": "https://www.youtube.com/watch?v=NLWyTYAHq2U",
+        "reason": "Sterk endurkomusaga."
+      },
+      {
+        "title": "KA 2-1 Stjarnan - sigur stolið í lokin",
+        "externalUrl": "https://www.youtube.com/watch?v=sKFHzfxlOs4",
+        "reason": "Gott síðustu-mínútna demo."
+      },
+      {
+        "title": "Víkingur 2-1 Afturelding - Nikolaj Hansen steig upp",
+        "externalUrl": "https://www.youtube.com/watch?v=TujXbBvkcEc",
+        "reason": "Leikmaður nefndur og gott metadata dæmi."
+      },
+      {
+        "title": "Blikar breyta vörn í sókn",
+        "externalUrl": "https://www.youtube.com/watch?v=J9nG_tnSrNo",
+        "reason": "Sýnir liðssókn/stoðsendingu frekar en bara mark."
+      },
+      {
+        "title": "Helgi Fróði með þræðingu inn fyrir vörnina",
+        "externalUrl": "https://www.youtube.com/watch?v=OkbWPnrgfSw",
+        "reason": "Gott assist/skill dæmi."
+      },
+      {
+        "title": "HK - Þróttur R.",
+        "externalUrl": "https://www.youtube.com/watch?v=aP25-Nuk_zw",
+        "reason": "Lengjudeildar-dæmi frá official YouTube channel."
+      },
+      {
+        "title": "Keflavík - Njarðvík",
+        "externalUrl": "https://www.youtube.com/watch?v=SM8KivEfoE0",
+        "reason": "Lengjudeildar-dæmi og sterkt Suðurnesja-samhengi."
+      }
+    ],
+    "likelyEmbedSafeClips": [
+      {
+        "title": "Aron Sigurðarson með þrumu fyrir KR gegn Val",
+        "externalUrl": "https://www.youtube.com/watch?v=KFp787pw0T8"
+      },
+      {
+        "title": "Gyða Kristín með frábært langskot",
+        "externalUrl": "https://www.youtube.com/watch?v=sSNCa8Scsxc"
+      },
+      {
+        "title": "Blikar breyta vörn í sókn",
+        "externalUrl": "https://www.youtube.com/watch?v=J9nG_tnSrNo"
+      },
+      {
+        "title": "Helgi Fróði með þræðingu inn fyrir vörnina",
+        "externalUrl": "https://www.youtube.com/watch?v=OkbWPnrgfSw"
+      },
+      {
+        "title": "FH 3-4 Fram - Framarar komu fjórum sinnum til baka",
+        "externalUrl": "https://www.youtube.com/watch?v=8Ce2xqyPgow"
+      },
+      {
+        "title": "KA 2-1 Stjarnan - sigur stolið í lokin",
+        "externalUrl": "https://www.youtube.com/watch?v=sKFHzfxlOs4"
+      },
+      {
+        "title": "Hólmar Örn bjargar á ótrúlegan hátt gegn KA",
+        "externalUrl": "https://www.youtube.com/watch?v=5U2N3SdpHAU"
+      },
+      {
+        "title": "Elísa Bríet Björnsdóttir með sitt fyrsta mark",
+        "externalUrl": "https://www.youtube.com/watch?v=hmxQDHKy7ys"
+      },
+      {
+        "title": "HK - Þróttur R.",
+        "externalUrl": "https://www.youtube.com/watch?v=aP25-Nuk_zw"
+      },
+      {
+        "title": "Keflavík - Njarðvík",
+        "externalUrl": "https://www.youtube.com/watch?v=SM8KivEfoE0"
+      }
+    ]
+  }
+}
