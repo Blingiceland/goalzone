@@ -41,8 +41,8 @@ export const translations = {
     },
     roleLabels: {
       admin: "Stjórnandi",
-      pending_uploader: "Bíður samþykkis",
-      uploader: "Innsendandi",
+      pending_uploader: "Bíður samþykkis sem leikmaður",
+      uploader: "Leikmaður",
       viewer: "Áhorfandi"
     },
     statusLabels: {
@@ -65,8 +65,8 @@ export const translations = {
     nav: {
       adminApplications: "Umsóknir",
       adminHighlights: "Myndbönd í yfirferð",
-      apply: "Sækja um",
-      submit: "Senda inn"
+      apply: "Verða leikmaður",
+      submit: "Senda inn mark"
     },
     layout: {
       description: "Football highlights",
@@ -81,15 +81,15 @@ export const translations = {
       filterByCollection: "Sía eftir stemningu",
       feedEyebrow: "Feedið",
       feedIntro:
-        "Samþykkt myndbönd frá innsendendum. Vel merkt efni raðast í rétta flokka og verður auðvelt að skoða, spila og deila.",
+        "Samþykkt myndbönd frá leikmönnum og liðum. Vel merkt efni raðast í rétta flokka og verður auðvelt að skoða, spila og deila.",
       feedTitle: "Myndbönd frá liðunum",
       featuredEmptyCopy: "Um leið og fyrsta samþykkta myndbandið kemur inn birtist það hér sem aðalklippa.",
       featuredEmptyTitle: "Aðalklippa vantar enn",
       featuredEyebrow: "Aðalklippa",
       featuredMore: "Opna feedið",
       heroCopy:
-        "Samþykktir innsendendur senda inn mörk, vörslur og augnablik frá sínum liðum. Stjórnandi yfirfer, flokkar og birtir.",
-      heroPoints: ["Samþykktir innsendendur", "Yfirfarið fyrst", "Auðvelt að deila"],
+        "Samþykktir leikmenn senda inn mörk, vörslur og augnablik frá sínum liðum. Stjórnandi yfirfer, flokkar og birtir.",
+      heroPoints: ["Samþykktir leikmenn", "Yfirfarið fyrst", "Auðvelt að deila"],
       heroSubtitle: "Myndbönd frá íslenska fótboltasamfélaginu.",
       heroTitle: "GOALZONE",
       lanesEyebrow: "Í feedinu",
@@ -111,36 +111,37 @@ export const translations = {
     auth: {
       access: "Aðgangur",
       createAccount: "Stofna aðgang",
-      createSuccess: "Aðgangur var stofnaður. Athugaðu netfangið ef staðfesting er virk.",
+      createSuccess: "Aðgangur var stofnaður. Staðfestu netfangið ef þess þarf, skráðu þig inn og sæktu svo um að verða leikmaður.",
       intro:
-        "Skráðu þig inn með netfangi og lykilorði. Nýir notendur byrja sem áhorfendur og geta sótt um að senda inn myndbönd.",
+        "Stofnaðu aðgang eða skráðu þig inn. Nýir notendur byrja sem áhorfendur og geta svo sótt um að verða leikmenn sem senda inn mörk.",
       missingSupabase: "Supabase er ekki stillt. Bættu URL og anon lykli í .env.local.",
       submitWorking: "Augnablik...",
       title: "Skráðu þig inn á Goalzone.",
-      uploaderApplication: "Halda áfram í umsókn"
+      uploaderApplication: "Halda áfram í leikmannsumsókn"
     },
     apply: {
-      alreadyUploader: "Aðgangurinn þinn má nú þegar senda inn myndbönd.",
+      alreadyUploader: "Aðgangurinn þinn er samþykktur sem leikmaður og má senda inn mörk.",
       closedTitle: "Umsóknarleiðin er lokuð í bili.",
-      clubOrTeamName: "Félag eða lið",
+      clubOrTeamName: "Félag eða lið sem þú spilar með",
       clubOrTeamPlaceholder: "t.d. KR, Valur, Breiðablik eða 5. flokkur",
       contactEmail: "Netfang tengiliðar",
+      createOrSignIn: "Stofna aðgang / skrá inn",
       currentRole: "Núverandi hlutverk",
       intro:
-        "Segðu stjórnendum hvaðan þú kemur úr fótboltanum. Samþykktir innsendendur geta sent inn myndbönd sem fara fyrst í yfirferð.",
+        "Segðu stjórnendum hvaða félagi eða liði þú tengist. Samþykktir leikmenn geta sent inn mörk sem fara fyrst í yfirferð.",
       latestApplication: "Síðasta umsókn",
       loading: "Hleð umsóknarsvæði...",
       missingSupabaseCopy: "Búðu til .env.local út frá .env.example og ræstu vefinn aftur.",
       missingSupabaseTitle: "Bættu við Supabase stillingum.",
-      note: "Umfjöllun",
-      pending: "Nýjasta umsóknin þín bíður yfirferðar.",
-      signInCopy: "Goalzone aðgangar byrja sem áhorfendur. Eftir innskráningu getur þú sótt um að senda inn.",
-      signInTitle: "Skráðu þig inn til að sækja um.",
+      note: "Af hverju viltu senda inn mörk?",
+      pending: "Nýjasta umsóknin þín bíður yfirferðar. Þegar hún er samþykkt getur þú sent inn mörk.",
+      signInCopy: "Goalzone aðgangar byrja sem áhorfendur. Þegar þú hefur stofnað aðgang getur þú sótt um að verða leikmaður sem má senda inn mörk.",
+      signInTitle: "Stofnaðu aðgang til að sækja um sem leikmaður.",
       submit: "Senda umsókn",
       submitting: "Sendi...",
-      success: "Umsóknin hefur verið send inn. Aðgangurinn þinn bíður nú yfirferðar.",
-      title: "Sækja um að senda inn.",
-      uploaderAccess: "Innsendingaraðgangur"
+      success: "Umsóknin hefur verið send inn. Aðgangurinn þinn bíður nú samþykkis sem leikmaður.",
+      title: "Sækja um að verða leikmaður.",
+      uploaderAccess: "Leikmannsaðgangur"
     },
     submit: {
       category: "Flokkur",
@@ -159,7 +160,7 @@ export const translations = {
       matchDate: "Leikdagur",
       opponentTeamName: "Andstæðingur",
       playerName: "Leikmaður",
-      requiresApproval: "Aðeins samþykktir innsendendur og stjórnendur geta sent inn myndbönd.",
+      requiresApproval: "Aðeins samþykktir leikmenn og stjórnendur geta sent inn mörk.",
       season: "Tímabil",
       selectFile: "Veldu myndband til að senda inn.",
       selectCategory: "Veldu flokk",
@@ -188,7 +189,7 @@ export const translations = {
       queue: "Stjórnendasvæði",
       requiresAdmin: "Stjórnandahlutverk þarf.",
       signInRequired: "Innskráning nauðsynleg.",
-      title: "Umsóknir innsendenda"
+      title: "Umsóknir leikmanna"
     },
     adminHighlights: {
       approveWithMetadata: "Samþykkja með flokkun",

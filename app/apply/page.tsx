@@ -121,8 +121,8 @@ export default function ApplyPage() {
         <p className="mt-3 text-sm leading-6 text-white/62">
           {t.apply.signInCopy}
         </p>
-        <Link href="/login" className="button-primary mt-5">
-          {t.common.signIn}
+        <Link href="/login?mode=signup" className="button-primary mt-5">
+          {t.apply.createOrSignIn}
         </Link>
       </div>
     );
