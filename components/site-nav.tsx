@@ -73,16 +73,6 @@ export function SiteNav() {
     window.location.href = "/";
   }
 
-  const canSubmit = profile?.role === "uploader" || profile?.role === "admin";
-  const backendHref =
-    profile?.role === "admin"
-      ? "/admin/highlights"
-      : canSubmit
-        ? "/submit"
-        : user
-          ? "/apply"
-          : "/login?mode=signup";
-
   return (
     <nav className="flex flex-wrap items-center justify-end gap-2">
       {user && (
@@ -97,7 +87,7 @@ export function SiteNav() {
       )}
 
       <Link
-        href={backendHref}
+        href="/backend"
         className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-flood/30 bg-flood/10 px-3 text-sm font-black text-flood transition hover:bg-flood hover:text-pitch-950"
         title={t.nav.backendDemo}
       >

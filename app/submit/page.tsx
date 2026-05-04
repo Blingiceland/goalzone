@@ -15,7 +15,7 @@ type Category = Database["public"]["Tables"]["categories"]["Row"];
 type VideoSource = "external" | "upload";
 
 const videoBucket = "highlight-videos";
-const maxUploadBytes = 250 * 1024 * 1024;
+const maxUploadBytes = 500 * 1024 * 1024;
 
 export default function SubmitPage() {
   const supabase = useMemo(() => getSupabaseBrowserClient(), []);
@@ -389,7 +389,7 @@ export default function SubmitPage() {
               />
               {videoFile && (
                 <p className="text-sm text-white/48">
-                  {(videoFile.size / 1024 / 1024).toFixed(1)} MB / 250 MB
+                  {(videoFile.size / 1024 / 1024).toFixed(1)} MB / 500 MB
                 </p>
               )}
             </Field>

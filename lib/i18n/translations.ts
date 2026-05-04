@@ -69,6 +69,12 @@ export const translations = {
       backendDemo: "Sýna bakenda",
       submit: "Senda inn mark"
     },
+    backend: {
+      eyebrow: "Bakendi án innskráningar í pitch",
+      intro:
+        "Þessi síða sýnir vélina á bakvið Goalzone án þess að þurfa að logga sig inn. Raunveruleg réttindi eru samt áfram varin með hlutverkum og RLS.",
+      title: "Svona verður efnið tekið inn, yfirfarið og birt."
+    },
     layout: {
       description: "Football highlights",
       footer: "Community-driven mörk, tilþrif og augnablik. Ísland fyrst, heimurinn með."
@@ -152,7 +158,7 @@ export const translations = {
       competitionRequired: "Veldu keppni áður en þú sendir inn.",
       description: "Lýsing",
       file: "Myndband",
-      fileTooLarge: "Myndbandið er of stórt. Hámarksstærð er 250 MB í þessari útgáfu.",
+      fileTooLarge: "Myndbandið er of stórt. Hámarksstærð er 500 MB í þessari útgáfu.",
       formTitle: "Fljótleg innsend",
       intro:
         "Sendu inn myndband úr leik eða æfingu. Það fer í yfirferð og birtist opinberlega þegar stjórnandi samþykkir það.",

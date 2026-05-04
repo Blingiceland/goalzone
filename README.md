@@ -234,7 +234,7 @@ External videos use `external_video_url` and `external_video_provider`, with `vi
 
 ## Upload Size
 
-The MVP uses a 250 MB upload limit for the `highlight-videos` bucket. This requires a Supabase plan and Storage Settings global file size limit that allow at least 250 MB.
+The MVP uses a 500 MB upload limit for the `highlight-videos` bucket. This requires a Supabase plan and Storage Settings global file size limit that allow at least 500 MB.
 
 For larger videos, use YouTube or Vimeo links, or add resumable uploads later.
 
@@ -271,4 +271,4 @@ lib/i18n/translations.ts
 - `supabase/migrations/20260503_highlight_submission.sql` - migration for existing foundation databases
 - `supabase/migrations/20260503_external_video_links.sql` - external YouTube/Vimeo video links
 - `supabase/migrations/20260503_categories_and_demo_embeds.sql` - categories and external embed seed support
-- `supabase/migrations/20260503_storage_250mb_limit.sql` - 250 MB upload size limit
+- `supabase/migrations/20260504_storage_500mb_limit.sql` - 500 MB upload size limit

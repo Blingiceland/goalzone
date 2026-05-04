@@ -41,6 +41,8 @@ const dateFormatter = new Intl.DateTimeFormat("is-IS", {
   year: "numeric"
 });
 
+const videoBucket = "highlight-videos";
+
 export default function AdminHighlightsPage() {
   const supabase = useMemo(() => getSupabaseBrowserClient(), []);
   const [user, setUser] = useState<User | null>(null);
@@ -199,6 +201,20 @@ export default function AdminHighlightsPage() {
     if (updateError) {
       setError(updateError.message);
       return false;
+    }
+
+    if (status === "rejected") {
+      const rejectedHighlight = highlights.find((highlight) => highlight.id === id);
+      if (rejectedHighlight?.video_path) {
+        const { error: removeError } = await supabase.storage
+          .from(videoBucket)
+          .remove([rejectedHighlight.video_path]);
+
+        if (removeError) {
+          setError(removeError.message);
+          return false;
+        }
+      }
     }
 
     await loadHighlights();

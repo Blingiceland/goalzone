@@ -26,7 +26,7 @@ Important behavior:
 - Approved highlights can be read publicly.
 - Approved highlight videos can be read from the private bucket when a matching approved row exists.
 - Pending highlights and their videos are not public.
-- The default bucket upload limit is 250 MB. The Supabase global Storage limit must be at least 250 MB too.
+- The default bucket upload limit is 500 MB. The Supabase global Storage limit must be at least 500 MB too.
 
 Highlight submission metadata:
 
@@ -49,7 +49,7 @@ Highlight submission metadata:
 If an existing database already has the foundation schema, run `supabase/migrations/20260503_highlight_submission.sql`.
 Then run `supabase/migrations/20260503_external_video_links.sql` to support YouTube/Vimeo links.
 Run `supabase/migrations/20260503_categories_and_demo_embeds.sql` to add categories and external demo embed support.
-Run `supabase/migrations/20260503_storage_250mb_limit.sql` to set the bucket upload limit to 250 MB.
+Run `supabase/migrations/20260504_storage_500mb_limit.sql` to set the bucket upload limit to 500 MB.
 
 If the category migration was already run before service-role seed grants were added, run:
 
