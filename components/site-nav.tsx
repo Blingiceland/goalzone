@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { User } from "@supabase/supabase-js";
-import { ClipboardList, Clapperboard, LogOut, Upload, UserRound } from "lucide-react";
+import { LayoutDashboard, LogOut, UserRound } from "lucide-react";
 import { getSupabaseBrowserClient } from "@/lib/supabase/client";
 import type { Database } from "@/lib/supabase/database.types";
 import { t } from "@/lib/i18n/translations";
@@ -36,6 +36,7 @@ export function SiteNav() {
           .select("*")
           .eq("id", data.user.id)
           .maybeSingle();
+
         if (error) {
           console.error("Goalzone profile lookup failed", error);
           if (mounted) {
@@ -44,6 +45,7 @@ export function SiteNav() {
           }
           return;
         }
+
         if (mounted) setProfile(profileData);
       } else {
         setProfile(null);
@@ -72,6 +74,14 @@ export function SiteNav() {
   }
 
   const canSubmit = profile?.role === "uploader" || profile?.role === "admin";
+  const backendHref =
+    profile?.role === "admin"
+      ? "/admin/highlights"
+      : canSubmit
+        ? "/submit"
+        : user
+          ? "/apply"
+          : "/login?mode=signup";
 
   return (
     <nav className="flex flex-wrap items-center justify-end gap-2">
@@ -85,42 +95,16 @@ export function SiteNav() {
               : "Enginn prófíll"}
         </span>
       )}
+
       <Link
-        href="/apply"
-        className="hidden rounded-lg px-3 py-2 text-sm font-bold text-white/68 transition hover:bg-white/[0.06] hover:text-white sm:inline-flex"
+        href={backendHref}
+        className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-flood/30 bg-flood/10 px-3 text-sm font-black text-flood transition hover:bg-flood hover:text-pitch-950"
+        title={t.nav.backendDemo}
       >
-        {t.nav.apply}
+        <LayoutDashboard className="h-4 w-4" />
+        <span>{t.nav.backendDemo}</span>
       </Link>
-      {canSubmit && (
-        <Link
-          href="/submit"
-          className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-flood/30 bg-flood/10 px-3 text-sm font-bold text-flood transition hover:bg-flood hover:text-pitch-950"
-          title={t.nav.submit}
-        >
-          <Upload className="h-4 w-4" />
-          <span className="hidden sm:inline">{t.nav.submit}</span>
-        </Link>
-      )}
-      {profile?.role === "admin" && (
-        <>
-          <Link
-            href="/admin/applications"
-            className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.06] px-3 text-sm font-bold text-white/72 transition hover:text-flood"
-            title={t.nav.adminApplications}
-          >
-            <ClipboardList className="h-4 w-4" />
-            <span className="hidden lg:inline">{t.nav.adminApplications}</span>
-          </Link>
-          <Link
-            href="/admin/highlights"
-            className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.06] px-3 text-sm font-bold text-white/72 transition hover:text-flood"
-            title={t.nav.adminHighlights}
-          >
-            <Clapperboard className="h-4 w-4" />
-            <span className="hidden lg:inline">{t.nav.adminHighlights}</span>
-          </Link>
-        </>
-      )}
+
       {user ? (
         <button
           className="inline-flex h-10 items-center justify-center gap-2 rounded-lg border border-white/10 bg-white/[0.06] px-3 text-sm font-bold text-white/72 transition hover:text-flood"

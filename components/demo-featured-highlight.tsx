@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Flame } from "lucide-react";
+import { ArrowRight, Play } from "lucide-react";
 import { HighlightVideo } from "@/components/highlight-video";
 import { ShareButton } from "@/components/share-button";
 import { getFeaturedDemoHighlight } from "@/lib/demo-data";
@@ -19,8 +19,8 @@ export function DemoFeaturedHighlight() {
   const shareUrl = `/h/${highlight.id}`;
 
   return (
-    <article className="overflow-hidden rounded-lg border border-flood/15 bg-black/30 shadow-glow">
-      <div className="relative aspect-video bg-black">
+    <article className="overflow-hidden rounded-lg border border-white/10 bg-black shadow-glow">
+      <div className="relative aspect-video bg-black lg:aspect-[16/10]">
         <HighlightVideo
           embedStatus={highlight.embed_status}
           signedUrl={null}
@@ -28,8 +28,8 @@ export function DemoFeaturedHighlight() {
           videoUrl={highlight.external_url}
           title={highlight.title}
         />
-        <div className="pointer-events-none absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-black/20 bg-black/65 px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-flood backdrop-blur">
-          <Flame className="h-3.5 w-3.5" />
+        <div className="pointer-events-none absolute left-4 top-4 inline-flex items-center gap-2 rounded-full border border-black/20 bg-black/70 px-3 py-1.5 text-xs font-black uppercase tracking-[0.16em] text-flood backdrop-blur">
+          <Play className="h-3.5 w-3.5 fill-flood" />
           {t.home.featuredEyebrow}
         </div>
       </div>
@@ -42,12 +42,6 @@ export function DemoFeaturedHighlight() {
           </p>
           <h2 className="mt-2 text-2xl font-black leading-tight text-white">{highlight.title}</h2>
         </div>
-
-        {highlight.discussion_prompt && (
-          <p className="rounded-lg border border-flood/15 bg-flood/8 px-3 py-2 text-xs font-semibold italic text-flood/85">
-            💬 {highlight.discussion_prompt}
-          </p>
-        )}
 
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div className="min-w-0 text-sm font-semibold text-white/56">
@@ -66,7 +60,7 @@ export function DemoFeaturedHighlight() {
               href={shareUrl}
               className="inline-flex items-center gap-1.5 rounded-lg border border-white/12 bg-white/[0.06] px-3 py-2 text-xs font-bold text-white/65 transition hover:border-white/25 hover:text-white"
             >
-              Sjá meira
+              Opna
               <ArrowRight className="h-3.5 w-3.5" />
             </Link>
             <ShareButton

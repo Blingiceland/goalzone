@@ -66,6 +66,7 @@ export const translations = {
       adminApplications: "Umsóknir",
       adminHighlights: "Myndbönd í yfirferð",
       apply: "Verða leikmaður",
+      backendDemo: "Sýna bakenda",
       submit: "Senda inn mark"
     },
     layout: {
@@ -73,7 +74,7 @@ export const translations = {
       footer: "Community-driven mörk, tilþrif og augnablik. Ísland fyrst, heimurinn með."
     },
     home: {
-      badge: "Samþykkt community",
+      badge: "Íslensk mörk, einn staður",
       emptyHighlights: "Engin samþykkt myndbönd eru komin inn enn.",
       approvedCountSuffix: "samþykkt",
       filterAll: "Allt",
@@ -81,22 +82,22 @@ export const translations = {
       filterByCollection: "Sía eftir stemningu",
       feedEyebrow: "Feedið",
       feedIntro:
-        "Samþykkt myndbönd frá leikmönnum og liðum. Vel merkt efni raðast í rétta flokka og verður auðvelt að skoða, spila og deila.",
-      feedTitle: "Myndbönd frá liðunum",
+        "Síaðu eftir stemningu, opnaðu klippu og deildu markinu beint. Bakendinn sér um samþykki og flokkun.",
+      feedTitle: "Mörk og augnablik",
       featuredEmptyCopy: "Um leið og fyrsta samþykkta myndbandið kemur inn birtist það hér sem aðalklippa.",
       featuredEmptyTitle: "Aðalklippa vantar enn",
       featuredEyebrow: "Aðalklippa",
       featuredMore: "Opna feedið",
       heroCopy:
-        "Samþykktir leikmenn senda inn mörk, vörslur og augnablik frá sínum liðum. Stjórnandi yfirfer, flokkar og birtir.",
+        "Goalzone safnar mörkum, vörslum og augnablikum sem annars týnast. Leikmenn og lið senda inn, stjórnandi samþykkir og allt verður auðvelt að horfa á og deila.",
       heroPoints: ["Samþykktir leikmenn", "Yfirfarið fyrst", "Auðvelt að deila"],
-      heroSubtitle: "Myndbönd frá íslenska fótboltasamfélaginu.",
+      heroSubtitle: "Fótboltamyndbönd sem er auðvelt að horfa á og deila.",
       heroTitle: "GOALZONE",
       lanesEyebrow: "Í feedinu",
       lanesTitle: "Það sem fær fólk til að ýta á play",
       pendingReview: "bíður yfirferðar",
       primaryCta: "Skoða myndbönd",
-      secondaryCta: "Senda inn",
+      secondaryCta: "Verða leikmaður",
       statApproved: "Horfa án þess að fara út",
       statApprovedCopy: "Public feedið heldur bara eftir klippum sem má spila beint á Goalzone.",
       statModerated: "Deila marki á einu augnabliki",
